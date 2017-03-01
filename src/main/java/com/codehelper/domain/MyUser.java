@@ -17,6 +17,7 @@ public class MyUser {
 
     private String password;
 
+
     private Integer age;
 
     private BigDecimal remainingAmount;
@@ -26,6 +27,16 @@ public class MyUser {
     private Long serialId;
 
     private Long globalId;
+
+    private Date updateTime;
+
+    public Date getUpdateTime() {
+        return updateTime;
+    }
+
+    public void setUpdateTime(Date updateTime) {
+        this.updateTime = updateTime;
+    }
 
     public Long getGlobalId() {
         return globalId;
